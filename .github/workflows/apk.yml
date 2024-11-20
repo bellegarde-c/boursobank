@@ -8,3 +8,6 @@ with:
     repo: 'boursobank'
     bundle: false
     filename: 'boursobank.apk'
+jobs:
+  build:
+    runs-on: ubuntu-latest
