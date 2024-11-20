@@ -1,4 +1,7 @@
 name: Download APK from APKMirror
+on:
+  schedule:
+    - cron: "0 0 * * *"
 uses: Yakov5776/gh-apkmirror-dl@v1.3
 with:
     org: 'boursorama'
