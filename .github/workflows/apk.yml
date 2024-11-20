@@ -1,4 +1,5 @@
--  uses: Yakov5776/gh-apkmirror-dl@v1.3
+- name: Download APK from APKMirror
+  uses: Yakov5776/gh-apkmirror-dl@v1.3
        with:
         org: 'boursorama'
         repo: 'boursobank'
