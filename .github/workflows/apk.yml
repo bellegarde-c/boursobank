@@ -1,7 +1,7 @@
-- name: Download APK from APKMirror
-  uses: Yakov5776/gh-apkmirror-dl@v1.3
-       with:
-        org: 'boursorama'
-        repo: 'boursobank'
-        bundle: false
-        filename: 'boursobank.apk'
+name: Download APK from APKMirror
+uses: Yakov5776/gh-apkmirror-dl@v1.3
+with:
+    org: 'boursorama'
+    repo: 'boursobank'
+    bundle: false
+    filename: 'boursobank.apk'
